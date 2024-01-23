@@ -10,6 +10,10 @@ nav ul li{
     margin:20px;
 
 }
+.responsive-navbar{
+    display:none;
+
+}
 nav ul li:first-child{
     justify-content:flex-start;
 }
@@ -17,6 +21,7 @@ nav{
     display:flex;
     background-color:#fffffff7;
     position:fixed;
+
     width:100%;
     z-index:9999;
     height:64px;
