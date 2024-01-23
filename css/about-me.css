@@ -4,6 +4,8 @@
   --first-color:rgb(61, 61, 63);
   --nav-first-color:#08186a; 
   --nav-first-color-hover:#08186a90;
+  --section-distance:40px;
+  --section-distance-bottom:80px;
 }
 
 *,

@@ -1,0 +1,27 @@
+.projects-section{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding:var(--section-distance);
+    padding-bottom:var(--section-distance-bottom);    
+}
+
+.projects-section h2{
+        margin-bottom:40px;
+        font-weight: bold;
+        font-size: 55px;
+        color: #ffff;
+    
+}
+.projects-card{
+    margin:20px;
+    transition:0.5s;
+}
+
+.projects-card:hover{
+    transform: scale(1.1);
+}
+.projects-card .card-text{
+    font-size: 16px;
+    font-weight:300;
+}

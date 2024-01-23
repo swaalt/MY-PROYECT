@@ -3,7 +3,8 @@
     justify-content: center;
     align-items:center;
     flex-direction:column;
-    margin:40px;    
+    margin:var(--section-distance);
+    margin-bottom:var(--section-distance-bottom);    
 }
 .about-section h2{
     font-weight: bold;
