@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/about-me.css">
     <link rel="stylesheet" href="/css/nav-content.css">
     <link rel="stylesheet" href="/css/whoiam.css">
+    <link rel="stylesheet" href="/css/skills.css">
     <link rel="stylesheet" href="/css/projects.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -31,10 +32,10 @@
         <ul>
 
             <li>
-                <a href="">Sobre mi</a>
+                <a href="#about-section">Sobre mi</a>
             </li>
             <li>
-                <a href="">Proyectos</a>
+                <a href="#projects-section">Proyectos</a>
             </li>
             <li>
                 <a href="">Habilidades</a>
@@ -49,9 +50,9 @@
 
         <div data-aos="fade-down" class="me-content ">
 
-            <h1 style="font-weight:bold; font-size:55px;">Hola, <br>
+            <h1 style="font-weight:bold; font-size:46px;">Hola, <br>
                 Soy <span style="color:#207de9">Sebastián Araya</span><br>
-                Full stack developer</h1>
+                Full stack web developer</h1>
             <p style="color: #152035; font-weight:19px;">Bienvenido a mi página de portafolio.</p>
             <div class="cv-div">
                 <a href="https://drive.google.com/file/d/1WCAQ59hzrwu694YqR2L2klSSWCHIR1qL/view?usp=sharing"
@@ -84,7 +85,7 @@
         </div>
 
     </main>
-    <section class="about-section container">
+    <section class="about-section container" id="about-section">
         <h2 data-aos="fade-down">Sobre mi</h2>
         <div class="about-content">
             <figure>
@@ -112,24 +113,54 @@
         </div>
 
     </section>
-    <section style="background-color: #01479c;">
+    <section  id="projects-section">
         <div class="projects-section container">
             <h2 data-aos="fade-down">Proyectos laborales</h2>
             <div class="projects-card card" style="width: 18rem;  border:5px solid #023d86;">
                 <img src="./assets/img/project-vinculation.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">Plataforma dedicada a la vinculación entre alumnos y empresas, utilizando las tecnologías HTML, CSS, JS Bootstrap, PHP, y codeigniter 4.</p>
+                    <div class="project-card-btn-container">
+                    <a href="https://vinculacion.maulealimenta.cl"
+                    target="_blank" class="projects-button" style="transition:0.6s">Ir</a>
+                </div>
                 </div>
             </div>
             
         </div>
     </section>
-    <section class="skills">
+    <section class="skills-section container" id="skills-section">
+        <h2>Lenguajes de programación frontend y backend</h2>
+        <div class="my-skills">
+            <a href=""><img src="./assets/img/skill-html.svg" alt="" srcset=""></a>
+            <a href=""><img src="./assets/img/skill-css.svg" alt="" srcset=""></a>
+            <a href=""><img src="./assets/img/skill-js.svg" alt="" srcset=""></a>
+            <a href=""><img src="./assets/img/skill-php.svg" alt="" srcset=""></a>
+        </div>
+        <h2>Frameworks frontend y backend</h2>
+        <div class="my-skills">
+            <a href=""><img src="./assets/img/skill-bootstrap.svg" alt="" srcset=""></a>
+            <a href=""><img src="./assets/img/skill-tailwind.svg" alt="" srcset=""></a>
+            <a href=""><img src="./assets/img/skill-codeigniter.svg" alt="" srcset=""></a>
+            <a href=""><img src="./assets/img/skill-laravel.svg" alt="" srcset=""></a>
+        </div>
+        <h2>Bases de datos</h2>
+        <div class="my-skills">
+            <a href=""><img src="./assets/img/skill-mysql.svg" alt="" srcset=""></a>
+            <a href=""><img src="./assets/img/skill-oracle.svg" alt="" srcset=""></a>
+        </div>
+        <h2>versionadores y tecnologías</h2>
+        <div class="my-skills">
+            <a href=""><img src="./assets/img/skill-git.svg" alt="" srcset=""></a>
+            <a href=""><img src="./assets/img/skill-docker.svg" alt="" srcset=""></a>
+            <a href=""><img src="./assets/img/skill-github.svg" alt="" srcset=""></a>
+            <a href=""><img src="./assets/img/skill-gitlab.svg" alt="" srcset=""></a>
+        </div>
+  
+     
 
-        <h2>lorem Ipsum</h2>
-        <h3>Lenguajes de programación</h3>
-        <h3>Frameworks y librerias</h3>
-        <h3>Tecnologías y herramientas</h3>
+
+        </div>
 
 
     </section>
