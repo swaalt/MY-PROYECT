@@ -234,12 +234,15 @@
     object-fit:cover;
 }
 
-
+/*contact-me*/
+.contact-section p{
+    font-size:14px;
+}
 }
 @media screen and (max-width: 328px) {
     /*about-me*/
     .me-content p{
         text-align:center;
     }
-
+    
 }

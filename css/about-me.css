@@ -50,24 +50,24 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+ .main-content {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+      background:
+      url("../src/assets/img/bg-l.webp")   no-repeat,
+      url("../src/assets/img/bg-r.webp") right bottom / 70% 70% no-repeat,
+        linear-gradient(to right, #bedafa, #cce4ff 50%, #cce4ff 50%, #cce4ff);
+       
+      border-bottom: 30px solid #b7d5fc;
+      background-attachment: fixed;
+      position: relative;
+    }
 
-.main-content {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100vh;
-    width:100%;
-    overflow: hidden;
-    background: 
-    url("../src/assets/img/bg-l.webp")   no-repeat,
-    url("../src/assets/img/bg-r.webp") right bottom / 70% 70% no-repeat,
-    linear-gradient(to right, #bedafa, #cce4ff 50%, #cce4ff 50%, #cce4ff);
-
-    border-bottom: 30px solid #b7d5fc;
-    background-attachment: fixed;
- 
-}
-
+  
 .main-content .me-photo{
     width:60%
 }
